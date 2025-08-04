@@ -39,15 +39,15 @@ body{
       color: var(--color-white);
       line-height: 1.7;
       background-image: url(../src/assets/bg-texture.jpg);
-      overflow-x: hidden;
+      
 }
 
 /* General style */
 .container{
   width: var(--container-width-lg);
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  
+  
   align-items: center;    /* horizontally centers children */
   text-align: center;     /* for text and inline elements */
 }
