@@ -65,7 +65,7 @@ const data=[
     demo:"http://dribble.com/Alien_pixels"
   },
   {
-    id:8,
+    id:9,
     image:IMG9,
     title:'Charcoal Portrait',
     insta_view:"https://www.instagram.com/p/C1MCAECSsww/?igsh=ejE4c2hmOXR1a25q",
