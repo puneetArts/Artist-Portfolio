@@ -148,11 +148,12 @@ header {
 
 @media screen and (max-width:780px) {
   header {
-    height: 110vh;
+    height: 60vh;
     
   }
   .me {
-    width: 20rem;
+    display: none;
+    /* width: 20rem;
     height: 20rem;
     position:absolute;
     margin: 5rem;
@@ -160,7 +161,7 @@ header {
     border-radius: 12rem 12rem;
     overflow: hidden;
     padding: 2rem 1.5rem 1.5rem 1.5rem;
-    transition: var(--transition);
+    transition: var(--transition); */
   }
 
   .header__social {
@@ -173,7 +174,7 @@ header {
 
   .scroll__down {
     display: none;
-    flex-direction: row;
+    flex-direction: column;
     bottom: 2.6rem;
     
   }

@@ -1,7 +1,7 @@
 .container.testimonials__container{
   width: 40%;
   padding-bottom: 4rem;
-
+  position: relative;
 }
 .client__avatar{
   width: 4rem;
@@ -12,6 +12,7 @@
   border: 0.4rem solid var(--color-primary-variant);
 
 }
+
 .testimonial{
   background-color: var(--color-bg-variant);
   text-align: center;
@@ -32,6 +33,27 @@
   background: var(--color-primary);
 
 }
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--color-primary) !important; /* Or any color you want */
+  top: 45% !important;
+  transform: translateY(-50%) !important;
+  z-index: 10 !important;
+  
+}
+
+/* ✅ ⭐️ Push arrows outside */
+.swiper-button-prev {
+  bottom:-20px ;
+}
+
+.swiper-button-next {
+  right: -50px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 2rem  !important;
+}
 
 /*----Media queries(medium devices)----*/
 
@@ -48,7 +70,7 @@
 
 
 @media screen and (max-width:780px) {
-   .testimonials__container{
+   .container.testimonials__container{
   width: var(--container-width-ms);
 
 
