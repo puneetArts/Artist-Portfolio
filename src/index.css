@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap'); 
 *{
   margin:0;
   padding:0;
@@ -45,7 +45,7 @@ body{
 /* General style */
 .container{
   width: var(--container-width-lg);
-  margin: 0 auto;
+  margin: 0 auto ;
   
   
   align-items: center;    /* horizontally centers children */
@@ -125,7 +125,7 @@ img{
 /*----Media queries(small devices)----*/
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:70px) {
   .container{
     width: var(--container-width-ms);
   }
