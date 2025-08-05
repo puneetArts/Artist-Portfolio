@@ -36,25 +36,25 @@ const Services = () => {
             <h2>Art</h2>
           </div>
           <ul className='service__list'>
-            <li><IoMdCheckmark className='service__list-icon' />
+            <li className='list_items'><IoMdCheckmark className='service__list-icon' />
               <div><h4>Portrait (Bust/ Half/ Full Body)</h4>
                 <small className='text-light'>Charcoal + Graphite</small></div>
             </li>
 
-            <li><IoMdCheckmark className='service__list-icon' />
+            <li className='list_items'><IoMdCheckmark className='service__list-icon' />
               <div><h4>Couple/Family Portrait(Bust/ Half/ Full Body)</h4>
                 <small className='text-light'>Charcoal + Graphite</small></div>
             </li>
-            <li><IoMdCheckmark className='service__list-icon' />
+            <li className='list_items'><IoMdCheckmark className='service__list-icon' />
               <div><h4>Canvas Painting</h4>
                 <small className='text-light'>Acrylic + Oil</small></div>
             </li>
-            <li><IoMdCheckmark className='service__list-icon' />
+            <li className='list_items'><IoMdCheckmark className='service__list-icon' />
               <p>Character Design</p>
             </li>
-            <li><IoMdCheckmark className='service__list-icon' />
+            <li className='list_items'><IoMdCheckmark className='service__list-icon' />
               <div><h4>Concept Art</h4>
-                </div>
+              </div>
             </li>
 
 

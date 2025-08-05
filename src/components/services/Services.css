@@ -31,7 +31,11 @@
 .service__list{
   padding: 2rem;
 }
+.list_items div {
+  text-align: left;
+}
 .service__list li{
+  
   display: flex;
   gap: 1rem;
   margin-bottom: 0.8rem;
